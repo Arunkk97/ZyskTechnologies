@@ -17,7 +17,7 @@
 .newF {
   color: #E63F3A;
   border: 1px solid;
-  padding: 4px;
+  padding: 0px 5px;
   border-radius: 800px;
   margin-right: 8px;
   /* display: inline-block;   */
@@ -37,12 +37,36 @@
   height: 48px;
 }
 
-@media(max-width:800px){
-  .head1{
+@media(max-width:800px) {
+  .head1 {
     white-space: normal;
     word-wrap: break-word;
     /* font-size: small; */
   }
-  
+
+  .bt1 {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .newF {
+    font-size: 12px;
+  }
+
+  .img1 {
+    width:343px;
+    height: 194px;
+ 
+
+
+  }
+
+  .buttonss {
+    flex-wrap: wrap;
+  }
+
+  .demo {
+    margin-bottom: 10px;
+  }
 
 }

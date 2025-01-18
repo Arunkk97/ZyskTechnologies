@@ -31,17 +31,17 @@ function Home() {
     <>
       <div className=' container d1'>
         <div className="d-flex flex-column justify-content-center align-items-center">
-          <button style={{ color: ' #E63F3A' }} className='btn border bt1 p-2 '><span className='fw-bolder newF'>New features</span> Check out the team dasboard <i class="fa-solid fa-arrow-right"></i></button>
-          <h1 className='mt-3 fw-bolder head1'>Beautiful analytics to grow smarter</h1>
+          <button style={{ color: ' #E63F3A',maxWidth:'400px' }} className='btn border bt1 p-2 '><span className='fw-bolder newF'>New features</span> Check out the team dasboard <i class="fa-solid fa-arrow-right"></i></button>
+          <h1 className='mt-3 fw-bolder head1 text-center'>Beautiful analytics to grow smarter</h1>
         </div>
         <p style={{ marginTop: '24px' }} className=' text-center'>Powerful, self-serve product and growth analytics to help you convert, engage,<br /> and retain more users. Trusted by over 4,000 startups.</p>
-        <div style={{ marginTop: '48px' }} className=" d-flex justify-content-center">
+        <div style={{ marginTop: '48px' }} className=" d-flex justify-content-center buttonss">
           <button style={{ backgroundColor: '#F0F8FF' }} className="btn  demo"><i class="fa-solid fa-circle-play fa-xs"></i>  Demo</button>
           <button style={{ backgroundColor: '#E63F3A' }} className="btn signupBt ms-3 text-light"> Sign Up</button>
         </div>
         {/* img1 */}
         <div style={{ marginTop: '64px' }} className='d-flex justify-content-center ' >
-          <img style={{ width: "900px", height: '500px' }} className='img-fluid' src={img1} alt="" />
+          <img style={{ width: "900px", height: '500px' }} className='img-fluid img1' src={img1} alt="" />
         </div>
         {/* brand */}
         <div>
@@ -59,7 +59,7 @@ function Home() {
         {/* features */}
         <div style={{ marginTop: '120px' }} className="d-flex flex-column justify-content-center align-items-center">
           <h5 style={{ color: ' #E63F3A' }} className='fw-bolder'>Features</h5>
-          <h2 className='mt-2 fw-bolder'>Analytics that feels like it’s from the future</h2>
+          <h2 className='mt-2 fw-bolder text-center'>Analytics that feels like it’s from the future</h2>
 
         </div>
         <p className='mt-3 text-center'>
