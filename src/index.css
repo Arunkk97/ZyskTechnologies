@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+.d1 {
+  margin-top: 96px;
+}
+
+.bt1 {
+  border-radius: 600px;
+
+}
+
+.newF {
+  color: #E63F3A;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 800px;
+  margin-right: 8px;
+  /* display: inline-block;   */
+
+}
+
+.signupBt {
+  color: #E63F3A;
+  border-radius: 300px;
+  width: 144px;
+  height: 48px;
+}
+
+.demo {
+  border-radius: 300px;
+  width: 144px;
+  height: 48px;
+}
+
+@media(max-width:800px){
+  .head1{
+    white-space: normal;
+    word-wrap: break-word;
+    /* font-size: small; */
+  }
+  
+
+}
